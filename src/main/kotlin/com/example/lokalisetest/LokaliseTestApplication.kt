@@ -22,6 +22,7 @@ class Test(
     fun test(
         locale: Locale
     ): String {
-        return messageSource.getMessage("message", null, Locale.of("ko"))
+//        println(Locale.of("ko"))
+        return messageSource.getMessage("message", null, locale)
     }
 }
