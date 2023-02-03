@@ -23,6 +23,6 @@ class Test(
         locale: Locale
     ): String {
 //        println(Locale.of("ko"))
-        return messageSource.getMessage("message", null, locale)
+        return messageSource.getMessage("message2", null, locale)
     }
 }
